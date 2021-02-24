@@ -18,3 +18,8 @@
 	<GL/glu.h>
 	<stdlib.h>
 
+1614157182 source:c:\my_files\c and c++\glut-polygon-drawing\main.cpp
+	<bits/stdc++.h>
+	<GL/glut.h>
+	<math.h>
+

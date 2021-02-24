@@ -386,8 +386,8 @@ void showInstructions()
     cout<<"1. Press t to translate the shape."<<endl;
     cout<<"2. Press r to rotate the shape."<<endl;
     cout<<"3. Press s to scale the shape."<<endl;
-    cout<<"--------------------------------------------------------------------------------"<<endl;
-    cout<<"Press enter to start drawing!"<<endl<<endl;
+    cout<<"--------------------------------------------------------------------------------"<<endl<<endl;
+    cout<<"Press enter to start drawing!"<<endl;
     while(cin.get() != '\n'){
         cout<<"Press enter to start drawing!"<<endl;
     }
@@ -409,13 +409,3 @@ int main (int argc, char** argv)
     glutDisplayFunc(myDisplay);
     glutMainLoop();
 }
-
-
-//void drawLine(vertice point1, vertice point2)
-//{
-//    glLineWidth((point1.verticeSize + point2.verticeSize)/2);
-//    glBegin(GL_LINES);
-//        glVertex2d(point1.x, point1.y);
-//        glVertex2d(point2.x, point2.y);
-//    glEnd();
-//}
